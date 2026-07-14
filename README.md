@@ -294,18 +294,3 @@ http://<public_ip>:5080
 3. **CI/CD Automation** with GitHub Actions, Docker, AWS EC2, and ECR
 
 ---
-
-## Additional Resources
-
-- **Crash Course on `setup.py` and `pyproject.toml`**: See `crashcourse.txt` for details.
-- **GitHub Secrets**: Used to securely manage credentials for the CI/CD pipeline.
-
----
-
-## Connect
-
-If you found this project helpful, have questions, or want to collaborate — feel free to reach out or open an issue!
-
----
-
-*This README provides a structured walkthrough of the MLOps project, showcasing the end-to-end pipeline, cloud integration, CI/CD setup, and robust data handling capabilities.*
