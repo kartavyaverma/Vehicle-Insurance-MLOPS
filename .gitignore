@@ -309,6 +309,7 @@ Desktop.ini
 .CloudMounter
 
 # Application-specific
+template.py
 *.sqlite
 *.sqlite3
 .mongo/
