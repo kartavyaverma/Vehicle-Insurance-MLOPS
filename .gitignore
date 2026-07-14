@@ -1,0 +1,322 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env.local
+.env.*.local
+.env.production
+.env.development
+.env.test
+
+# Credentials and Secrets
+.secrets/
+secrets.json
+secrets.yaml
+secrets.yml
+config/secrets/
+.aws/
+.aws/credentials
+.aws/config
+credentials.json
+credentials.yaml
+credentials.yml
+api_keys.json
+api_keys.yaml
+api_keys.yml
+tokens.json
+tokens.yaml
+tokens.yml
+.env.secrets
+
+# SSH Keys
+*.pem
+*.key
+*.pub
+id_rsa
+id_rsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+known_hosts
+
+# Private Keys
+*.ppk
+*.privatekey
+*.private_key
+*.priv
+
+# Google Cloud
+.gcp/
+service-account.json
+google-cloud-credentials.json
+
+# Azure
+.azure/
+azure-credentials.json
+
+# Heroku
+.heroku/
+
+# Database credentials
+database.conf
+db.conf
+database.yml
+database.yaml
+db.yml
+db.yaml
+
+# Docker secrets
+.dockerenv
+docker-secret*
+
+# OAuth tokens
+oauth_token
+oauth_tokens
+.oauth/
+
+# API configuration files
+apikey*
+api_key*
+api-key*
+*.key.json
+*.private.json
+
+# SSL/TLS certificates
+*.crt
+*.cer
+*.der
+*.pfx
+*.p12
+*.jks
+*.keystore
+.ssl/
+
+# Configuration files with sensitive data
+config.local.js
+config.local.ts
+local.settings.json
+settings.local.json
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project-specific
+artifact/
+logs/
+*.pkl
+*.joblib
+.env.local
+config/model.yaml.local
+src.egg-info/
+
+# Data files
+data/
+*.csv
+*.json
+notebook/data.csv
+
+# Temporary files
+*.tmp
+*.bak
+
+# OS-specific
+Thumbs.db
+.AppleDouble
+.LSOverride
+*.lnk
+
+# Python cache
+*.pyc
+*.pyo
+
+# Build artifacts
+*.o
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+
+# Testing
+.pytest_cache/
+.coverage/
+htmlcov/
+.tox/
+
+# Sphinx
+_build/
+_static/
+_templates/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# IDE specific files
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Node modules (if using any JS)
+node_modules/
+npm-debug.log
+
+# Docker volumes
+docker-compose.override.yml
+
+# Backup files
+*.backup
+*.bkp
+*.swp
+*.swo
+*~
+
+# System files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# CloudMounter
+.CloudMounter
+
+# Application-specific
+*.sqlite
+*.sqlite3
+.mongo/
+mongo_data/
+
+# MLOps specific
+models/old/
+experiments/
+runs/
+checkpoints/
+
