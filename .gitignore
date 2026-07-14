@@ -320,3 +320,21 @@ experiments/
 runs/
 checkpoints/
 
+# Model files
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.pb
+*.pkl
+*.joblib
+
+# MLOps Tracking
+wandb/
+mlruns/
+outputs/
+
+# Project root marker
+.project-root
+
