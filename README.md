@@ -2,8 +2,6 @@
 
 An end-to-end MLOps project that demonstrates how to build, train, evaluate, and deploy a machine learning model for vehicle insurance data — complete with cloud data storage, model versioning, containerization, and a fully automated CI/CD pipeline.
 
-This project is designed as a reference implementation for anyone looking to understand how production-grade ML systems are built, showcasing the tools, patterns, and best practices used in real-world MLOps workflows.
-
 ---
 
 ## Table of Contents
@@ -99,7 +97,7 @@ Prediction Pipeline (Flask App)
      ↓
 Docker Image → GitHub Actions → AWS ECR → AWS EC2 (self-hosted runner)
      ↓
-Live App on Port 5080
+Live App on Port 5000
 ```
 
 ## Project Structure
@@ -278,11 +276,11 @@ Add `static` and `templates` directories to support the web UI served by the Fla
 3. Connect the EC2 instance to your GitHub repository as a **self-hosted runner**.
 
 ### Step 18: Final Steps
-1. Open port `5080` on the EC2 instance's security group.
+1. Open port `5000` on the EC2 instance's security group.
 2. Access your deployed application by visiting:
 
 ```
-http://<public_ip>:5080
+http://<public_ip>:5000
 ```
 
 ---
